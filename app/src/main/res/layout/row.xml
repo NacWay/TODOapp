@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txttask"
+            android:layout_width="243dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/oswald"
+            android:lineHeight="10dp"
+            android:paddingTop="0dp"
+            android:text="@string/hello"
+            android:textAlignment="inherit"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/deletetask"
+            android:layout_width="148dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/txttask"
+            android:backgroundTint="@color/green"
+            android:onClick="deleteTask"
+            android:singleLine="true"
+            android:text="Сделал"
+            android:textColor="@color/white"
+            android:textSize="10dp"
+            tools:ignore="DuplicateClickableBoundsCheck" />
+
+
+</RelativeLayout>
